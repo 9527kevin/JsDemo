@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+
+
+<body>
+
+<div align="center">
+
+<p></p>
+<button id = "weather" style="width: 100px;height: 30px">天气</button>
+<p></p>
+<button id = "sport" style="width: 100px;height: 30px">运动</button>
+<p></p>
+<button id = "map" style="width: 100px;height: 30px">地图</button>
+
+</div>
+
+<script>
+
+    var weather = document.getElementById('weather')
+
+    weather.onclick = function(){
+
+        window.location.href = 'zhq://WBWeatherViewController';
+    }
+
+
+    var sport = document.getElementById('sport')
+
+    sport.onclick = function(){
+
+        window.location.href = 'zhq://WBSportsViewController';
+    }
+
+
+    var map = document.getElementById('map')
+
+    map.onclick = function(){
+
+        window.location.href = 'zhq://WBMapViewController';
+    }
+
+</script>
+
+</body>
+</html>
