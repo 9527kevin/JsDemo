@@ -20,7 +20,7 @@
 
     self.title = @"首页";
     
-    NSURL *url = [NSURL URLWithString:@"http://htmlpreview.github.io/?https://github.com/zhouhuanqiang/JsDemo/blob/master/html调用OC/resource/index.html"];
+    NSURL *url = [NSURL URLWithString:@"http://htmlpreview.github.io/?https://github.com/zhouhuanqiang/JsDemo/blob/master/resource/index.html"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [self.webView loadRequest:request];
 

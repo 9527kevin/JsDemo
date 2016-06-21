@@ -17,7 +17,6 @@
 		0C00150F1D18F125006156B3 /* WBSportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C00150B1D18F125006156B3 /* WBSportsViewController.m */; };
 		0C0015101D18F125006156B3 /* WBWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C00150D1D18F125006156B3 /* WBWeatherViewController.m */; };
 		0C0015131D18F1CB006156B3 /* WBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0015121D18F1CB006156B3 /* WBBaseViewController.m */; };
-		0C0015161D190FCB006156B3 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 0C0015151D190FCB006156B3 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +38,6 @@
 		0C00150D1D18F125006156B3 /* WBWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBWeatherViewController.m; sourceTree = "<group>"; };
 		0C0015111D18F1CB006156B3 /* WBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBBaseViewController.h; sourceTree = "<group>"; };
 		0C0015121D18F1CB006156B3 /* WBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBBaseViewController.m; sourceTree = "<group>"; };
-		0C0015151D190FCB006156B3 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +70,6 @@
 		0C0014F01D18F11B006156B3 /* html调用OC */ = {
 			isa = PBXGroup;
 			children = (
-				0C0015141D190FCB006156B3 /* resource */,
 				0C0015111D18F1CB006156B3 /* WBBaseViewController.h */,
 				0C0015121D18F1CB006156B3 /* WBBaseViewController.m */,
 				0C0015081D18F125006156B3 /* WBMapViewController.h */,
@@ -100,14 +97,6 @@
 				0C0014F21D18F11B006156B3 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0C0015141D190FCB006156B3 /* resource */ = {
-			isa = PBXGroup;
-			children = (
-				0C0015151D190FCB006156B3 /* index.html */,
-			);
-			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,7 +157,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C0015011D18F11B006156B3 /* LaunchScreen.storyboard in Resources */,
-				0C0015161D190FCB006156B3 /* index.html in Resources */,
 				0C0014FE1D18F11B006156B3 /* Assets.xcassets in Resources */,
 				0C0014FC1D18F11B006156B3 /* Main.storyboard in Resources */,
 			);
