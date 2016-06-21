@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.title = @"首页";
+    self.title = @"首页是HTML";
     
     NSURL *url = [NSURL URLWithString:@"http://htmlpreview.github.io/?https://github.com/zhouhuanqiang/JsDemo/blob/master/resource/index.html"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
